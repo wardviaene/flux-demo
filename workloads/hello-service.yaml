@@ -1,0 +1,11 @@
+apiVersion: v1
+kind: Service
+metadata:
+  name: docker-nodejs-demo
+spec:
+  ports:
+  - port: 80
+    targetPort: nodejs-port
+    protocol: TCP
+  selector:
+    app: docker-nodejs-demo
