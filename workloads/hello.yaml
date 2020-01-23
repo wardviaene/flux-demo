@@ -3,7 +3,7 @@ apiVersion: apps/v1
 kind: Deployment
 metadata:
   name: docker-nodejs-demo
-  namespace: default
+  namespace: flux
   labels:
     app: docker-nodejs-demo
   annotations:
